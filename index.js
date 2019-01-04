@@ -135,6 +135,6 @@ app.put("/cars/:id", (req, res) => {
   });
 });
 
-app.listen(2610, "localhost", () => console.log("Server started"));
+// app.listen(2610, "localhost", () => console.log("Server started"));
 // app.listen(6666, "localhost", () => console.log("Server started"));
-// app.listen(process.env.PORT || 6666, () => console.log("Server started"));
+app.listen(process.env.PORT || 2610, () => console.log("Server started"));
